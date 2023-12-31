@@ -1,0 +1,7 @@
+---
+title: Checking giscus comments
+comments:
+  giscus: 
+    repo: EllaKaye/quarto-playground
+---
+

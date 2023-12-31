@@ -1,0 +1,21 @@
+---
+title: Code in footnote
+format: html
+---
+
+**Actually, this is fine, the problem was in my custom `.scss`** 
+
+In Quarto v1.4, footnote text is smaller, but code is relatively too big.[^1]
+
+In this playground...[^2]
+
+Here's some `code` in the text.
+
+[^1]: In this footnote `this bit of monospace` is way bigger than the text.
+
+[^2]: Here's a code chunk:
+
+	```{r}
+	library(palmerpenguins)
+	head(penguins)
+	```

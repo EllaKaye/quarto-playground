@@ -1,0 +1,10 @@
+---
+title: Squashed footnote
+format: html
+license: CC BY-SA
+---
+
+See the footnote.^[Here's a footnote.]
+
+### Appendix {.appendix}
+Here's an appendix.

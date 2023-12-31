@@ -1,0 +1,22 @@
+---
+format: html
+tab-stop: 2
+execute: 
+  eval: false
+---
+
+```{r}
+mtcars |> 
+	head()
+```
+
+```{r}
+for (i in 1:10) {
+	if (i %% 2 == 0) {
+		cat(paste(i, "is even"))
+	} else {
+		cat(paste(i, "is odd"))
+	}
+}
+```
+
